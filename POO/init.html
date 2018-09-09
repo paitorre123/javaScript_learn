@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pagina</title>
+
+    <!--objetos-->
+
+    <script>
+        miObjeto = new Object();
+        miObjeto.info = "propiedad del objeto";
+        
+        function fun(){
+            window.console.log(this.info);
+        }
+
+        miObjeto.mostrarInfo = fun;
+
+    </script>
+</head>
+<body>
+    <input type="button" value="click" onclick="miObjeto.mostrarInfo()">
+</body>
+</html>
