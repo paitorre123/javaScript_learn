@@ -1,3 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  font-style: inherit;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #e68019;
+}
+
+
+
+h1{
+  color: black;
+}
+
 .button{
   border: none;
   color: white;
@@ -9,7 +35,12 @@
   margin: 4px 2px;
   cursor: pointer;
 }
-
+.home{
+  color: white;
+  padding: 10px 20px;
+  background-color:#cc6600;
+  
+}
 .boton_espanol{
   background-color: #008CBA;
 }
