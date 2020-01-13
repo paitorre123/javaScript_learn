@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Emanon Evah web">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="init.css">
     <title>3E-COMP</title>
 </head>
 <body>
     <div class="header">
-       <h1>Emanon-evah</h1> 
+       <h1>Emanon-evah</h1>
     </div>
     <div class="topnav">
-        <button class="home">Home</button>
+        <button class="button home" onclick="home()"><i class="fa fa-home"></i> Home</button>
+        <div class="dropdown">
+            <button class="dropbtn maletin">
+              <i class="fa fa-bars"></i>
+              Maletín 
+            </button>
+            <div class="dropdown-content contenido-maletin">
+              <a href="#">Programador</a>
+              <a href="#">Investigador</a>
+              <a href="#">Marino mercante</a>
+            </div>
+        </div> 
     </div>
-    <button class="button boton_espanol" onclick="saludar('Pablo', hablaEspanol )"> Español</button>
-    <button class="button boton_ingles"onclick="saludar('Pablo', speakEnglish )"> English</button>
+
 </body>
 <script src="init.js" > </script>
 </html>

@@ -13,3 +13,8 @@ const hablaEspanol = function(nombre){
 const speakEnglish = function (name){
     console.log("Hello ", name);
 }
+
+function home(){
+    console.log("Home");
+}
+
